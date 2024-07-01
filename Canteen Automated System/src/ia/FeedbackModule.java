@@ -64,7 +64,7 @@ public class FeedbackModule extends JFrame {
         });
     }
 
-    private void clearFields() {
+    public static void clearFields() {
         txtOrderId.setText("");
         txtFeedback.setText("");
         cbRating.setSelectedIndex(0);
@@ -74,4 +74,22 @@ public class FeedbackModule extends JFrame {
         FeedbackModule feedbackModule = new FeedbackModule();
         feedbackModule.setVisible(true);
     }
+
+	public static void getTxtOrderId() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void getTxtFeedback() {
+
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void getCbRating() {
+		
+		// TODO Auto-generated method stub
+		
+	}
+	
 }
